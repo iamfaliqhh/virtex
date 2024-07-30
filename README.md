@@ -31,7 +31,7 @@ $ python3 Virtex.py
 
 • Atau bisa juga memindahkan nya dengan cara mengetik
 
-$ mv nama virtex.txt /sdcard
+$ mv nama-virtex.txt /sdcard
 
 CONTOHNYA KEK GINI CUY:
 
