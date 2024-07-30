@@ -37,4 +37,4 @@ CONTOHNYA KEK GINI CUY:
 
 mv v12.txt /sdcard
 
-![Download Virtex](https://raw.githubusercontent.com/iamfaliqhh/virtex/master/image_2024-07-30_104601519.png)
+![Download Virtex](https://raw.githubusercontent.com/iamfaliqhh/virtex/master/image_2024-07-30_111532814.png)
