@@ -25,7 +25,7 @@ $ cd virtex
 
 $ ls
  
-$ python3 virtex.py
+$ python3 Virtex.py
 
 • Jika sudah selesai mendownload file virtex, lu bisa memindahkan file tersebut menggunakan mc
 
