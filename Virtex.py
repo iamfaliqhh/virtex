@@ -49,7 +49,7 @@ except requests.exceptions.RequestException:
   exit(f"{p}[{y}!{p}] {r}Tidak Ada Koneksi!{a}")
 
 colors = lambda : random.choice([r,g,y,p,P,c,w])
-logo = f"{r}****     **** *******     **     **\n/**/**   **/**/**////**   //**   ** \n/**//** ** /**/**   /**    //** **  \n/** //***  /**/*******      //***   \n/**  //*   /**/**///**       **/**  \n/**   /    /**/**  //**     ** //** \n/**        /**/**   //**   **   //**\n//         // //     //   //     //\n{p}╔═════════════════════════════════════╗\n║[{y}•{p}] {c}Author : {g}MR-X JUNIOR             {p}║\n║[{y}•{p}] {c}GitHub : {w}github.com/MR-X-Junior  {p}║\n║[{y}•{p}] {c}WA.    : {y}+62 85754629509        {p} ║\n║[{y}•{p}] {c}UPDATE : {UPDATE}      {p}  ║\n║[{y}•{p}] {c}Python : {colors()}{sys.version[0:6]}                {p}  ║\n║[{y}•{p}] {c}OS     : {colors()}{sys.platform}{' '*(23 - len(sys.platform))}{p} ║\n║[{y}•{p}] {c}Host   : {colors()}{socket.gethostname()}{' '*(24 - len(socket.gethostname()))}{p}║\n║[{y}•{p}] {c}Team.  : {colors()}TNT {colors()}ANONYMOUS {r}INDO{w}NESIA{p} ║\n╚═════════════════════════════════════╝{a}"
+logo = f"{r}****     **** *******     **     **\n/**/**   **/**/**////**   //**   ** \n/**//** ** /**/**   /**    //** **  \n/** //***  /**/*******      //***   \n/**  //*   /**/**///**       **/**  \n/**   /    /**/**  //**     ** //** \n/**        /**/**   //**   **   //**\n//         // //     //   //     //\n{p}╔═════════════════════════════════════╗\n║[{y}•{p}] {c}Author : {g}F4L1QH5ecSys             {p}║\n║[{y}•{p}] {c}GitHub : {w}github.com/iamfaliqhh  {p}║\n║[{y}•{p}] {c}WA.    : {y}+62 81934022750        {p} ║\n║[{y}•{p}] {c}UPDATE : {UPDATE}      {p}  ║\n║[{y}•{p}] {c}Python : {colors()}{sys.version[0:6]}                {p}  ║\n║[{y}•{p}] {c}OS     : {colors()}{sys.platform}{' '*(23 - len(sys.platform))}{p} ║\n║[{y}•{p}] {c}Host   : {colors()}{socket.gethostname()}{' '*(24 - len(socket.gethostname()))}{p}║\n║[{y}•{p}] {c}Team.  : {colors()}GERAK {colors()}SENDIRI {r}LHA{w}AAAA{p} ║\n╚═════════════════════════════════════╝{a}"
 
 try:
   os.mkdir('virtex')
@@ -72,11 +72,11 @@ def main():
   try:
     os.system ('clear')
     print (logo)
-    print ("%sPILIH JENIS VIRTEX" % (g))
+    print ("%sPILIH JENIS VIRTEX CUY" % (g))
     print ("%s%s%s" % (c,'='*43,a))
     for khaneysia,rahmat in enumerate(files, start = 1):
       print (f"{p}[{r}{str(khaneysia).zfill(2)}{p}] {colors()}{os.path.splitext(rahmat['filename'])[0]}")
-    print (f"{p}[{r}AL{p}] {c}UNDUH SEMUA VIRTEX\n{p}[{r}BA{p}] {y}KEMBALI KE MENU UTAMA\n{p}[{r}EX{p}] {r}KELUAR DARI PROGRAM")
+    print (f"{p}[{r}AL{p}] {c}DOWNLOAD SEMUA VIRTEX\n{p}[{r}BA{p}] {y}KEMBALI KE MENU UTAMA\n{p}[{r}EX{p}] {r}KELUAR DARI PROGRAM")
     echa = input("%s>>>> %s" % (g,c)).lower()
     if echa == 'al':
       with concurrent.futures.ThreadPoolExecutor(15) as executor:
@@ -147,7 +147,7 @@ def menu():
   if choice == '1' or choice == '01':
     main()
   elif choice == '2' or choice == '02':
-    url = "https://wa.me/6285754629509"
+    url = "https://wa.me/6281934022750"
     code = webbrowser.open(url)
     if code:
       time.sleep(0.9)
@@ -158,7 +158,7 @@ def menu():
       menu()
   elif choice == '3' or choice == '03':
     os.system('clear')
-    print (f"{logo}\n{g}INFO SCRIPT\n========================\n{p}[{y}✓{p}] {c}Author: {g}Rahmat adha\n{p}[{y}✓{p}] {c}Team  : {colors()}TNT {colors()}ANONYMOUS {r}INDO{w}NESIA\n{p}[{y}✓{p}] {c}Script: {colors()}{os.path.basename(sys.argv[0])}\n{p}[{y}✓{p}] {c}Path  : {os.path.realpath(sys.argv[0])}\n{p}[{y}✓{p}] {c}Size  : {os.stat(os.path.realpath(sys.argv[0])).st_size} Byte\n{p}[{y}✓{p}] {c}Link  : {colors()}https://github.com/MR-X-Junior/Virtex\n{p}[{y}✓{p}] {c}Update: {colors()}{UPDATE}\n{p}[{y}✓{p}] {c}Versi : 1.1\n\n{g}Contact Me ^_^\n==================\n{p}[{y}✓{p}] {c}Github: {colors()}https://github.com/MR-X-Junior/\n{p}[{y}✓{p}] {c}Fb.   : {colors()}https://www.facebook.com/Anjay.pro098\n{p}[{y}✓{p}] {c}Wa.   : {colors()}+62 85754629509\n{p}[{y}✓{p}] {c}Email : {colors()}termux.indonesia01@gmail.com\n{a}")
+    print (f"{logo}\n{g}INFO SCRIPT\n========================\n{p}[{y}✓{p}] {c}Author: {g}F4L1QH5ecSys\n{p}[{y}✓{p}] {c}Team  : {colors()}GERAK {colors()}SENDIRI {r}LHA{w}AAAA\n{p}[{y}✓{p}] {c}Script: {colors()}{os.path.basename(sys.argv[0])}\n{p}[{y}✓{p}] {c}Path  : {os.path.realpath(sys.argv[0])}\n{p}[{y}✓{p}] {c}Size  : {os.stat(os.path.realpath(sys.argv[0])).st_size} Byte\n{p}[{y}✓{p}] {c}Link  : {colors()}https://github.com/iamfaliqhh/virtex\n{p}[{y}✓{p}] {c}Update: {colors()}{UPDATE}\n{p}[{y}✓{p}] {c}Versi : 1.1\n\n{g}Contact Gw :3\n==================\n{p}[{y}✓{p}] {c}Github: {colors()}https://github.com/iamfaliqhh/\n{p}[{y}✓{p}] {c}Wa.   : {colors()}+62 81934022750\n{p}[{y}✓{p}] {c}Email : {colors()}faliqhyoon@icloud.com\n{a}")
   elif choice == '00' or choice == '0':
     os.abort()
   else:
