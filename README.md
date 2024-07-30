@@ -33,7 +33,7 @@ $ python3 Virtex.py
 
 $ mv nama virtex.txt /sdcard
 
-CONTOHNYA KEK GINI:
+CONTOHNYA KEK GINI CUY:
 
 mv v12.txt /sdcard
 
