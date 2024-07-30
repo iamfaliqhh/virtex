@@ -1,8 +1,7 @@
-# Virtex
-Download Virtex Via Termux ^_^
+# virtex compilations
+Download Virtex lewat Termux :3
 
 CARA INSTALL NYA MELALUI TERMUX
-
 
 $ pkg update
 
@@ -28,13 +27,13 @@ $ ls
  
 $ python3 virtex.py
 
-• Jika sudah selesai mendownload file Virtex anda bisa memindahkan file tersebut menggunakan mc
+• Jika sudah selesai mendownload file virtex, lu bisa memindahkan file tersebut menggunakan mc
 
-• Atau anda juga bisa memindahkan nya dengan cara mengetik
+• Atau bisa juga memindahkan nya dengan cara mengetik
 
 $ mv nama virtex.txt /sdcard
 
-CONTOHNYA:
+CONTOHNYA KEK GINI:
 
 mv v12.txt /sdcard
 
